@@ -11,3 +11,6 @@ docs:
 	$(shell vessel bin)/mo-doc
 test:
 	make -C test
+
+run-example:
+	make -C test > /dev/null
